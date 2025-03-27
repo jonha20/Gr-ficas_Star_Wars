@@ -27,7 +27,12 @@
         };
         
         var options = {
-          seriesBarDistance: 15
+          seriesBarDistance: 15,
+          width: "600px",
+          height: "500px",
+          axisY:{
+            onlyInteger:true
+          }
         };
         
         var responsiveOptions = [
@@ -118,7 +123,12 @@ function paintGraph1(dataset){
       };
       
       var options = {
-        seriesBarDistance: 15
+        seriesBarDistance: 15,
+        width: "600px",
+        height: "500px",
+        axisY:{
+          onlyInteger:true
+        }
       };
       
       var responsiveOptions = [
